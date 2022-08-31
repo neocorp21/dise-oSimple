@@ -1,0 +1,46 @@
+/** Tarjetas  **/
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .column-2.carta{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+  }
+  
+.contenedor{
+    display: grid;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px black;
+}
+  .img-estrategias{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img-estrategias img{
+    max-width: 100px;
+    max-height: 70px;
+  }
+
+  .contenedorbotones{
+    display: flex;
+    align-items: center;
+    }
+  
+  .botonizquierda{
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .botonderecha{
+    
+    
+    justify-content: center;
+    margin: 0 auto;
+   
+  }
